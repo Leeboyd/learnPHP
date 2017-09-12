@@ -1,0 +1,9 @@
+body {
+  font-family: Georgia;
+  background-color: #F3F1ED;
+  color: #4a4231;
+  line-height: 1.4;
+  padding: 10%;
+  margin: 0 auto;
+  max-width: 32em;
+}
