@@ -1,5 +1,6 @@
 <?php
+$app['database']->insert('todos', [
+  'description' => $_POST['description']
+]);
 
-require 'views/form.view.php';
-
-var_dump($_POST);
+header('Location: /');
