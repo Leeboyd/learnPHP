@@ -1,5 +1,7 @@
 <?php
-// entry point
+// entry point (composer autoload, 資料庫...)
+require 'vendor/autoload.php';
+
 require 'core/boot.php';
 
 require Router::load('routes.php')
