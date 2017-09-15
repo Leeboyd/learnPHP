@@ -1,14 +1,3 @@
 <?php require('views/partials/head.php'); ?>
-  <h1>My Task</h1>
-  <ul>
-    <?php foreach ($tasks as $task) : ?>
-      <li>
-        <?php if ($task->completed) : ?>
-          <strike><?= $task->description; ?></strike>
-        <?php else: ?>
-          <?= $task->description; ?>
-        <?php endif; ?>
-      </li>
-    <?php endforeach; ?>
-  </ul>
+  <h1>My HOME</h1>
 <?php require('views/partials/footer.php'); ?>
