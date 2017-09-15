@@ -11,5 +11,5 @@ require 'core/boot.php';
 // 但這樣定義更精簡
 use App\Core\{Router, Request};
 
-Router::load('routes.php')
+Router::load('app/routes.php')
   ->direct(Request::uri(), Request::method());
